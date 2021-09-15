@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My Landing Page</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://avatars.githubusercontent.com/u/77505484?s=400&u=e26790c70e0535ce75efb39695931a271b47a02b&v=4"
+        alt="user" />
+    </div>
+    <ul>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">React</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>Full-Stack Course</h1>
+    <p>
+      Welcome to my MERN-Stack web-development for absoulute beginers
+    </p>
+
+    <button class="neon-button" id="open">Sign Up</button>
+  </header>
+
+  <div class="container">
+    <h2>Ready for MERN-Stack development?</h2>
+    <p>
+      Ready to learn web-development? In this course we will start from the very basics of what website development is
+      to completing and deploying a fully functional web-app.
+    </p>
+    <p>
+      The website we will build as we learn will be an online platform where developers from around the world can create
+      a profile and share their work with others.
+    </p>
+
+    <h2>Who is this course for?</h2>
+
+    <p>
+      While this course is Beginner friendly, all skill levels can learn here. We wont just be learning the basics, we
+      will be applying what we know to add awesome site features like messaging other users, leaving comments and rating
+      projects and so much more. This course will leave all skill levels with a new load of knowledge and different
+      approaches of completing tasks.
+    </p>
+
+    <h2>What we will learn ?</h2>
+    <ul>
+      <li>HTML/CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>... and other frameworks</li>
+    </ul>
+
+    <p>
+      Web Development is one of the fastest growing careers in today’s economy with a
+      projected 27% growth rate by 2024. The Coding Boot Camp at UT Austin was designed to help students to develop the
+      skills and network needed to capitalize on this high-demand career track.
+      Some of the courses we will cover are JavaScript, HTML5, CSS, jQuery, Responsive Design, Bootstrap, React.js,
+      Node.js, MongoDB, PHP frameworks like Laravel, and MySQL.
+    </p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+
+      <div class="modal-content">
+        <div class="containers">
+          <form class="modal-form form" id="form">
+            <!-- Username -->
+            <div class="form-info">
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Enter username">
+              <!-- Error message display -->
+              <small></small>
+            </div>
+            <!-- Email -->
+            <div class="form-info">
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter email">
+              <!-- Error message display -->
+              <small></small>
+            </div>
+            <!-- Password -->
+            <div class="form-info">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter password">
+              <!-- Error message display -->
+              <small></small>
+            </div>
+            <!-- Confirm Password -->
+            <div class="form-info">
+              <label for="password">Confirm Password</label>
+              <input type="password" id="password2" placeholder="Enter password again">
+              <!-- Error message display -->
+              <small></small>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+          <div>
+          </div>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
